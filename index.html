@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <title>Ropp</title>
+
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="row header-info-row d-flex  ">
+                <div class="col-4  header-info">
+                    <div class="header-info-item">
+                        <img src="img/refund.svg" alt="Возврат" class="info-image">
+                        <span class="info-text">ВЫБОР ЛУЧШИХ ЦЕН</span>
+                    </div>
+                </div>
+                <div class="col-4  header-info">
+                    <div class="header-info-item">
+                        <img src="img/shipped.svg" alt="Доставка" class="info-image">
+                        <span class="info-text">БОЛЬШОЙ АССОРТИМЕНТ</span>
+                    </div>
+                </div>
+
+                <div class="col-4 header-info ">
+                    <div class="header-info-item">
+                        <img src="img/cupon.svg" alt="Купон" class="info-image">
+                        <span class="info-text">ВСЕ ЦЕНЫ НА 1 СТРАНИЦЕ</span>
+                    </div>
+                </div>
+            </div>
+            <div class="row d-flex align-items-center ">
+                <div class="col-9">
+                    <div class="logo">
+                        <img src="img/logo.svg" alt="Logo" class="logo-img">
+                    </div>
+                </div>
+                <div class="col-3 location d-flex justify-content-end">
+                    <a href="#" class="location-link">
+                        <img src="img/location.svg" alt="location" class="location-img mr-1">
+                        <span>Выберите город</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="row ">
+                <div class="col-12">
+                    <form>
+                        <div class="form-row ">
+                            <div class="col-12 input-group ">
+                                <div class="form-group d-flex align-items-center " style="margin-bottom: 0px;">
+                                    <input type="search" name="search" class="input-search" placeholder="Поиск">
+                                    <button type="submit" class="button-search ">
+                                        <img src="img/search-icon.svg" alt="" class="search-icon">
+                                    </button>
+                                </div>
+                            </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <!-- ./container -->
+    </header>
+
+    <div class="sub-menu">
+        <div class="container">
+            <div class="row">
+                <div class="col-2 sub-menu-heading d-flex">
+                    <button class="btn menu-button" type="button">
+                        <span class="menu-line"></span>
+                        <span class="menu-line"></span>
+                        <span class="menu-line"></span>
+                    </button>
+                    <a href="#" class="sub-menu-text">ВСЕ КАТЕГОРИИ</a>
+                </div>
+                <div class="col-2 d-flex align-items-center">
+                    <a href="#" class="main-page">
+                        <span class="main-heading">ГЛАВНАЯ</span>
+                    </a>
+                    <a href="#" class="main-page">
+                        <span class="main-heading">КОНТАКТЫ</span>
+                    </a>
+                </div>
+                <div class="col d-flex align-items-center justify-content-end">
+                    <div class="nav">
+                        <a href="#" class="img-favorite mr-4">
+                            <img src="img/favorite.svg" alt="">
+                        </a>
+                        <a href="#" class="img-compare mr-4">
+                            <img src="img/compare.svg" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ./sub-menu -->
+
+    <!-- <div class="container">
+        <div class="row category">
+            <div class="col-3">
+                <div class="nav">
+                    <div class="nav-item">
+                        <a href="#" class="img-category">
+                            <img src="img/laptop.svg" alt="">
+                            <span class="category-heading"> НОУТБУКИ </span>
+                        </a>
+                        <div class="line"></div>
+                    </div>
+
+                    <div class="nav-item">
+                        <a href="#" class="img-category">
+                            <img src="img/laptop.svg" alt="">
+                            <span class="category-heading"> НОУТБУКИ </span>
+                        </a>
+                        <div class="line"></div>
+                    </div>
+
+                    <div class="nav-item">
+                        <a href="#" class="img-category">
+                            <img src="img/laptop.svg" alt="">
+                            <span class="category-heading"> НОУТБУКИ </span>
+                        </a>
+                        <div class="line"></div>
+                    </div>
+
+                    <div class="nav-item">
+                        <a href="#" class="img-category">
+                            <img src="img/laptop.svg" alt="">
+                            <span class="category-heading"> НОУТБУКИ </span>
+                        </a>
+                        <div class="line"></div>
+                    </div>
+
+                    <div class="nav-item">
+                        <a href="#" class="img-category">
+                            <img src="img/laptop.svg" alt="">
+                            <span class="category-heading"> НОУТБУКИ </span>
+                        </a>
+                        <div class="line"></div>
+                    </div>
+
+                    <div class="nav-item">
+                        <a href="#" class="img-category">
+                            <img src="img/laptop.svg" alt="">
+                            <span class="category-heading"> НОУТБУКИ </span>
+                        </a>
+                        <div class="line"></div>
+                    </div>
+                </div>
+            </div>
+
+    </div>
+
+ -->
+
+
+    <!-- Блок слайдера и категорий -->
+    <div class="container">
+        <div class="row">
+            <div class="col-3 mb-3 mt-3 pb-2" style="border: 1px solid #DCDCDC;border-radius: 3px;">
+                <div class="nav-item">
+                    <a href="#" class="img-category">
+                        <img src="img/laptop.svg" alt="">
+                        <span class="category-heading"> НОУТБУКИ </span>
+                    </a>
+                    <div class="line"></div>
+                </div>
+                <div class="nav-item">
+                    <a href="#" class="img-category">
+                        <img src="img/laptop.svg" alt="">
+                        <span class="category-heading"> НОУТБУКИ </span>
+                    </a>
+                    <div class="line"></div>
+                </div>
+                <div class="nav-item">
+                    <a href="#" class="img-category">
+                        <img src="img/laptop.svg" alt="">
+                        <span class="category-heading"> НОУТБУКИ </span>
+                    </a>
+                    <div class="line"></div>
+                </div>
+                <div class="nav-item">
+                    <a href="#" class="img-category">
+                        <img src="img/laptop.svg" alt="">
+                        <span class="category-heading"> НОУТБУКИ </span>
+                    </a>
+                    <div class="line"></div>
+                </div>
+                <div class="nav-item">
+                    <a href="#" class="img-category">
+                        <img src="img/laptop.svg" alt="">
+                        <span class="category-heading"> НОУТБУКИ </span>
+                    </a>
+                    <div class="line"></div>
+                </div>
+                <div class="nav-item">
+                    <a href="#" class="img-category">
+                        <img src="img/laptop.svg" alt="">
+                        <span class="category-heading"> НОУТБУКИ </span>
+                    </a>
+                    <div class="line"></div>
+                </div>
+                <div class="nav-item">
+                    <a href="#" class="img-category">
+                        <img src="img/laptop.svg" alt="">
+                        <span class="category-heading"> НОУТБУКИ </span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="col-9 d-flex mt-3">
+                <div class="swiper" style="border-radius: 3px;">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                        <!-- Slides -->
+                        <div class="slide slide-1 swiper-slide"></div>
+                        <div class="swiper-slide slide-2">Slide 2</div>
+                        <div class="swiper-slide slide-3">Slide 3</div>
+
+                    </div>
+                    <div class="slider-nav">
+                        <div class="container">
+                            <div class="row justify-content-between">
+                                <div class="col-1">
+                                    <button class="slider-button slider-button-prev">
+                                        <img src="img/arrow-prev.svg" alt="icon: arrow-prev">
+                                    </button>
+                                </div>
+                                <div class="col-1">
+                                    <button class="slider-button slider-button-next">
+                                        <img src="img/arrow-next.svg" alt="icon: arrow-next">
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- /.container -->
+                    </div>
+                    <!-- /.slider-nav стрелки на слайдере-->
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Блок популярных брендов -->
+    <div class="container">
+        <div class="row">
+            <div class="col-9 align-items-center">
+                <h2 class="section-title mt-4 mb-3">Популярные бренды</h2>
+            </div>
+        </div>
+        <!-- /.row  -->
+        <div class="row align-items-center justify-content-between">
+            <div class="col-lg-2">
+                <div class="popular-card">
+                    <img src="img/iphone.png" alt="image: iphone" class="popular-image">
+                    <h3 class="popular-title">Apple</h3>
+                </div>
+            </div>
+
+            <div class="col-lg-2">
+                <div class="popular-card">
+                    <img src="img/iphone.png" alt="image: iphone" class="popular-image">
+                    <h3 class="popular-title">Apple</h3>
+                </div>
+            </div>
+
+            <div class="col-lg-2">
+                <div class="popular-card">
+                    <img src="img/iphone.png" alt="image: iphone" class="popular-image">
+                    <h3 class="popular-title">Apple</h3>
+                </div>
+            </div>
+
+            <div class="col-lg-2">
+                <div class="popular-card">
+                    <img src="img/iphone.png" alt="image: iphone" class="popular-image">
+                    <h3 class="popular-title">Apple</h3>
+                </div>
+            </div>
+            <div class="col-lg-2">
+                <div class="popular-card">
+                    <img src="img/iphone.png" alt="image: iphone" class="popular-image">
+                    <h3 class="popular-title">Apple</h3>
+                </div>
+            </div>
+            <div class="col-lg-2">
+                <div class="popular-card">
+                    <img src="img/iphone.png" alt="image: iphone" class="popular-image">
+                    <h3 class="popular-title">Apple</h3>
+                </div>
+            </div>
+        </div>
+        <!-- /.row -->
+    </div>
+    <!-- /.container -->
+
+    <!-- Блок популярных товаров -->
+    <div class="container">
+        <div class="row">
+            <div class="col-9 align-items-center">
+                <h2 class="section-title mt-4 mb-1">Популярные товары</h2>
+            </div>
+        </div>
+        <!-- /.row  -->
+        <div class="row  justify-content-between">
+            <div class="col-lg-2.5">
+                <div class="popular-goods">
+                    <img src="img/iphone.png" alt="image: iphone" class="popular-goods-image">
+                    <h3 class="popular-goods-title">Iphone 13 PRO 512гб</h3>
+
+                    <a href="#" class="popular-goods-price">
+                        <span class="price-text">от 122 500 ₽</span>
+                        <div class="favorite-btn">
+                            <img src="img/heart-red.svg" alt="" class="icon-heart-red">
+                        </div>
+                    </a>
+                    <button class="btn compare-btn">Сравнить цены</button>
+                </div>
+            </div>
+            <div class="col-lg-2.5">
+                <div class="popular-goods">
+                    <img src="img/iphone.png" alt="image: iphone" class="popular-goods-image">
+                    <h3 class="popular-goods-title">Iphone 13 PRO 512гб</h3>
+
+                    <a href="#" class="popular-goods-price">
+                        <span class="price-text">от 122 500 ₽</span>
+                        <div class="favorite-btn">
+                            <img src="img/heart-red.svg" alt="" class="icon-heart-red">
+                        </div>
+                    </a>
+                    <button class="btn compare-btn">Сравнить цены</button>
+                </div>
+            </div>
+            <div class="col-lg-2.5">
+                <div class="popular-goods">
+                    <img src="img/iphone.png" alt="image: iphone" class="popular-goods-image">
+                    <h3 class="popular-goods-title">Iphone 13 PRO 512гб</h3>
+
+                    <a href="#" class="popular-goods-price">
+                        <span class="price-text">от 122 500 ₽</span>
+                        <div class="favorite-btn">
+                            <img src="img/heart-red.svg" alt="" class="icon-heart-red">
+                        </div>
+                    </a>
+                    <button class="btn compare-btn">Сравнить цены</button>
+                </div>
+            </div>
+            <div class="col-lg-2.5">
+                <div class="popular-goods">
+                    <img src="img/iphone.png" alt="image: iphone" class="popular-goods-image">
+                    <h3 class="popular-goods-title">Iphone 13 PRO 512гб</h3>
+
+                    <a href="#" class="popular-goods-price">
+                        <span class="price-text">от 122 500 ₽</span>
+                        <div class="favorite-btn">
+                            <img src="img/heart-red.svg" alt="" class="icon-heart-red">
+                        </div>
+                    </a>
+                    <button class="btn compare-btn">Сравнить цены</button>
+                </div>
+            </div>
+            <div class="col-lg-2" style="width: 19,999999; flex: 0 0 19.999%;max-width: 19.999%;">
+                <div class="popular-goods">
+                    <img src="img/iphone.png" alt="image: iphone" class="popular-goods-image">
+                    <h3 class="popular-goods-title">Iphone 13 PRO 512гб</h3>
+
+                    <a href="#" class="popular-goods-price">
+                        <span class="price-text">от 122 500 ₽</span>
+                        <div class="favorite-btn">
+                            <img src="img/heart-red.svg" alt="" class="icon-heart-red">
+                        </div>
+                    </a>
+                    <button class="btn compare-btn">Сравнить цены</button>
+                </div>
+            </div>
+
+        </div>
+        <!-- /.row -->
+    </div>
+    <!-- /.container -->
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-7 mb-4 mb-xl-0">
+                    <nav>
+                        <ul class="footer-menu d-sm-flex">
+                            <li class="footer-menu-item"><a href="#" class="footer-menu-link">About Us</a></li>
+                            <li class="footer-menu-item"><a href="#" class="footer-menu-link">Careers</a></li>
+                            <li class="footer-menu-item"><a href="#" class="footer-menu-link">FAQ</a></li>
+                            <li class="footer-menu-item"><a href="#" class="footer-menu-link">Blog</a></li>
+                            <li class="footer-menu-item"><a href="#" class="footer-menu-link">Contacts</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <!-- /.col-7 -->
+                <div class="col-lg-5 d-flex align-items-center justify-content-end">
+                    <span class="footer-text">Follow Us</span>
+                    <span class="footer-social d-inline-flex align-items-center">
+                        <a href="#" class="social-link">
+                            <img src="img/Instagram.svg" alt="instagram">
+                        </a>
+                        <a href="#" class="social-link">
+                            <img src="img/Facebook.svg" alt="Facebook">
+                        </a>
+                        <a href="#" class="social-link">
+                            <img src="img/Vk.svg" alt="Vk">
+                        </a>
+                    </span>
+
+                </div>
+                <!-- /.col-3 -->
+
+            </div>
+            <!-- /.row -->
+            <div class="line-footer mt-4 mb-4"></div>
+
+
+            <div class="row justify-content-between">
+                <div class="col-md-2">
+                    <a href="#">
+                        <img src="img/logo.svg" alt="logo-black">
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <span class="footer-description">Сайт сравнения цен <br> бытовой техники</span>
+                </div>
+                <div class="col-lg-6 col-sm-3 d-flex justify-content-end">
+                    <a href="#" class="top-link d-flex align-items-center">
+                        <span class="top-link-text">Top</span>
+                        <img src="img/top.svg" alt="icon: arrow top">
+                    </a>
+                </div>
+                <!-- /.col-2 -->
+            </div>
+
+
+        </div>
+    </footer>
+
+
+    <script src=" https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+    </script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
